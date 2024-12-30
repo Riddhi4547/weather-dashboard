@@ -113,7 +113,7 @@ const Dashboard = () => {
               <p>Humidity: {weather.main.humidity}%</p>
               <p>Wind speed: {weather.wind.speed} m/s</p>
             </div>
-          </div>
+          </div> 
         )}
       </div>
     </div>
