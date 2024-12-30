@@ -1,8 +1,5 @@
-# React + Vite
+#Author - Riddhi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This weather dashboard is made using Reactjs and tailwind css. 
+It shows weather by city name, for that i have used open weather's api. 
+Just search the city name in the input field to see the weather of a particular area.

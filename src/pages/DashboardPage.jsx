@@ -52,10 +52,10 @@ const Dashboard = () => {
         {error && <p className='text-red-500 mt-4'>{error}</p>}
   
         {weather && (
-          <div className="bg-white shadow-md rounded-lg p-6 mt-6 max-w-sm w-full">
-            <h2 className="text-lg font-semibold">{weather.name}, {weather.sys.country}</h2>
+          <div className="bg-white shadow-lg rounded-lg p-6 text-center max-w-sm mx-auto mt-10 animate-slideUp">
+            <h2 className="text-lg text-blue-800 font-semibold">{weather.name}, {weather.sys.country}</h2>
             <p className="text-gray-600">{weather.weather[0].description}</p>
-            <p className="text-4xl font-bold mt-2">{Math.round(weather.main.temp)}°C</p>
+            <p className="text-4xl text-indigo-800 font-bold mt-2">{Math.round(weather.main.temp)}°C</p>
             
   
           </div>
